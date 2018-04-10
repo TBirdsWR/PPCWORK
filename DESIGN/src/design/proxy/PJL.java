@@ -15,5 +15,8 @@ public class PJL implements SN {
 		System.out.println("pjl ppp");
 		System.out.println("pjl ppp");
 		System.out.println("pjl ppp");
+		System.out.println("pjl yyt");
+		System.out.println("pjl yyt");
+		System.out.println("pjl yyt");
 	}
 }
