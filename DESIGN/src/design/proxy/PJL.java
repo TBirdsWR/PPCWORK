@@ -12,5 +12,11 @@ public class PJL implements SN {
 	public void ppp()
 	{
 		System.out.println("pjl ppp");
+		System.out.println("pjl ppp");
+		System.out.println("pjl ppp");
+		System.out.println("pjl ppp");
+		System.out.println("pjl yyt");
+		System.out.println("pjl yyt");
+		System.out.println("pjl yyt");
 	}
 }
