@@ -31,7 +31,7 @@ public class PageController {
 	
 	@RequestMapping("/index")
 	public String showIndex()
-	{
+	{   
 		HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
 		HttpServletResponse response = ((ServletRequestAttributes)RequestContextHolder.getRequestAttributes()).getResponse();
 		HttpSession session = request.getSession();

@@ -3,14 +3,14 @@
 <mapper namespace="com.taotao.mapper.LoginDao" >
   
   <select id="login" resultType="com.taotao.pojo.UserInfo" parameterType="java.lang.String" >
-    select id,username,password from userInfo u 
+    select id,username,password from tb_user u 
     where u.username = #{username}
    
   </select>
   
   <insert id="register" parameterType="com.taotao.pojo.UserInfo" >
-    insert into userInfo (id, username, password)
-    values (#{id}, #{username}, #{password})
+    insert into tb_user (id, username, password,created,updated)
+    values (#{id}, #{username}, #{password},SYSDATE(),SYSDATE())
   </insert>
 
 </mapper>
